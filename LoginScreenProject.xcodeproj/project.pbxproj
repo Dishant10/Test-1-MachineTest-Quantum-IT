@@ -11,6 +11,14 @@
 		3378CF6D285DDB2D009DEAA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378CF6C285DDB2D009DEAA5 /* ContentView.swift */; };
 		3378CF6F285DDB32009DEAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3378CF6E285DDB32009DEAA5 /* Assets.xcassets */; };
 		3378CF72285DDB32009DEAA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3378CF71285DDB32009DEAA5 /* Preview Assets.xcassets */; };
+		3378CF79285DE6C0009DEAA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3378CF78285DE6C0009DEAA5 /* GoogleService-Info.plist */; };
+		3378CF7B285F1852009DEAA5 /* SignUpItemsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378CF7A285F1852009DEAA5 /* SignUpItemsGroupView.swift */; };
+		3378CF7D285F190A009DEAA5 /* SignUpItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378CF7C285F190A009DEAA5 /* SignUpItemView.swift */; };
+		3378CF80285F2C8B009DEAA5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3378CF7F285F2C8B009DEAA5 /* GoogleSignIn */; };
+		3378CF82285F2C8B009DEAA5 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3378CF81285F2C8B009DEAA5 /* GoogleSignInSwift */; };
+		3378CF89285F2FF9009DEAA5 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378CF88285F2FF9009DEAA5 /* Application.swift */; };
+		33BF86A5285F52EE00AA6837 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 33BF86A4285F52EE00AA6837 /* FacebookLogin */; };
+		836A6BABDE775F97D16B046F /* Pods_LoginScreenProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984A9B70992ADA275EDA3085 /* Pods_LoginScreenProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3378CF6C285DDB2D009DEAA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3378CF6E285DDB32009DEAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3378CF71285DDB32009DEAA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3378CF78285DE6C0009DEAA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3378CF7A285F1852009DEAA5 /* SignUpItemsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemsGroupView.swift; sourceTree = "<group>"; };
+		3378CF7C285F190A009DEAA5 /* SignUpItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemView.swift; sourceTree = "<group>"; };
+		3378CF83285F2DB0009DEAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3378CF88285F2FF9009DEAA5 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		89ADD8868EE1F4A859A82E87 /* Pods-LoginScreenProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginScreenProject.debug.xcconfig"; path = "Target Support Files/Pods-LoginScreenProject/Pods-LoginScreenProject.debug.xcconfig"; sourceTree = "<group>"; };
+		984A9B70992ADA275EDA3085 /* Pods_LoginScreenProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginScreenProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF443C8D67EFB525E4F2D814 /* Pods-LoginScreenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginScreenProject.release.xcconfig"; path = "Target Support Files/Pods-LoginScreenProject/Pods-LoginScreenProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BF86A5285F52EE00AA6837 /* FacebookLogin in Frameworks */,
+				3378CF82285F2C8B009DEAA5 /* GoogleSignInSwift in Frameworks */,
+				836A6BABDE775F97D16B046F /* Pods_LoginScreenProject.framework in Frameworks */,
+				3378CF80285F2C8B009DEAA5 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +57,8 @@
 			children = (
 				3378CF69285DDB2D009DEAA5 /* LoginScreenProject */,
 				3378CF68285DDB2D009DEAA5 /* Products */,
+				4E3082F4845DCAD599912323 /* Pods */,
+				75465F452A742352275B374F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +73,15 @@
 		3378CF69285DDB2D009DEAA5 /* LoginScreenProject */ = {
 			isa = PBXGroup;
 			children = (
+				3378CF87285F2FE7009DEAA5 /* Utilities */,
+				3378CF83285F2DB0009DEAA5 /* Info.plist */,
 				3378CF6A285DDB2D009DEAA5 /* LoginScreenProjectApp.swift */,
 				3378CF6C285DDB2D009DEAA5 /* ContentView.swift */,
+				3378CF78285DE6C0009DEAA5 /* GoogleService-Info.plist */,
 				3378CF6E285DDB32009DEAA5 /* Assets.xcassets */,
 				3378CF70285DDB32009DEAA5 /* Preview Content */,
+				3378CF7A285F1852009DEAA5 /* SignUpItemsGroupView.swift */,
+				3378CF7C285F190A009DEAA5 /* SignUpItemView.swift */,
 			);
 			path = LoginScreenProject;
 			sourceTree = "<group>";
@@ -67,6 +94,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3378CF87285F2FE7009DEAA5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3378CF88285F2FF9009DEAA5 /* Application.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4E3082F4845DCAD599912323 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89ADD8868EE1F4A859A82E87 /* Pods-LoginScreenProject.debug.xcconfig */,
+				AF443C8D67EFB525E4F2D814 /* Pods-LoginScreenProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75465F452A742352275B374F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984A9B70992ADA275EDA3085 /* Pods_LoginScreenProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +126,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3378CF75285DDB32009DEAA5 /* Build configuration list for PBXNativeTarget "LoginScreenProject" */;
 			buildPhases = (
+				007A0CD13CBF2C73A2647321 /* [CP] Check Pods Manifest.lock */,
 				3378CF63285DDB2D009DEAA5 /* Sources */,
 				3378CF64285DDB2D009DEAA5 /* Frameworks */,
 				3378CF65285DDB2D009DEAA5 /* Resources */,
+				A0D89073CE736FB3C3D73052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LoginScreenProject;
+			packageProductDependencies = (
+				3378CF7F285F2C8B009DEAA5 /* GoogleSignIn */,
+				3378CF81285F2C8B009DEAA5 /* GoogleSignInSwift */,
+				33BF86A4285F52EE00AA6837 /* FacebookLogin */,
+			);
 			productName = LoginScreenProject;
 			productReference = 3378CF67285DDB2D009DEAA5 /* LoginScreenProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,11 @@
 				Base,
 			);
 			mainGroup = 3378CF5E285DDB2D009DEAA5;
+			packageReferences = (
+				3378CF7E285F2C8B009DEAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				33BF86A2285F521C00AA6837 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				33BF86A3285F52EE00AA6837 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 3378CF68285DDB2D009DEAA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,18 +191,64 @@
 			files = (
 				3378CF72285DDB32009DEAA5 /* Preview Assets.xcassets in Resources */,
 				3378CF6F285DDB32009DEAA5 /* Assets.xcassets in Resources */,
+				3378CF79285DE6C0009DEAA5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007A0CD13CBF2C73A2647321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginScreenProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D89073CE736FB3C3D73052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginScreenProject/Pods-LoginScreenProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginScreenProject/Pods-LoginScreenProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginScreenProject/Pods-LoginScreenProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3378CF63285DDB2D009DEAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3378CF89285F2FF9009DEAA5 /* Application.swift in Sources */,
 				3378CF6D285DDB2D009DEAA5 /* ContentView.swift in Sources */,
 				3378CF6B285DDB2D009DEAA5 /* LoginScreenProjectApp.swift in Sources */,
+				3378CF7B285F1852009DEAA5 /* SignUpItemsGroupView.swift in Sources */,
+				3378CF7D285F190A009DEAA5 /* SignUpItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +371,7 @@
 		};
 		3378CF76285DDB32009DEAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89ADD8868EE1F4A859A82E87 /* Pods-LoginScreenProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +381,7 @@
 				DEVELOPMENT_TEAM = 2TW7VKY4VF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginScreenProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +402,7 @@
 		};
 		3378CF77285DDB32009DEAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF443C8D67EFB525E4F2D814 /* Pods-LoginScreenProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +412,7 @@
 				DEVELOPMENT_TEAM = 2TW7VKY4VF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginScreenProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +453,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3378CF7E285F2C8B009DEAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		33BF86A2285F521C00AA6837 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		33BF86A3285F52EE00AA6837 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3378CF7F285F2C8B009DEAA5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3378CF7E285F2C8B009DEAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3378CF81285F2C8B009DEAA5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3378CF7E285F2C8B009DEAA5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		33BF86A4285F52EE00AA6837 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33BF86A3285F52EE00AA6837 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3378CF5F285DDB2D009DEAA5 /* Project object */;
 }
